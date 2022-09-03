@@ -1,0 +1,28 @@
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build App
+        run: yarn build
+
+      - uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        with:
+          email: ${{ secrets.EMAIL }}
+          build_dir: out # optional
+          branch: gh-pages # optional
+          jekyll: no # optional
+          #commit_message: custom message # optional
