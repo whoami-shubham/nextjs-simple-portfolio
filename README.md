@@ -23,7 +23,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Editing Content
 
-There is a file at `src/metaData.json` it has the text contents that is rendered on page.
+There is a file at `metaData.json` it has the text contents that is rendered on page.
 
 ## Deploy on Github Pages
 
