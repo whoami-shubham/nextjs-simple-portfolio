@@ -1,1 +1,0 @@
-nextjs-simple-portfolio
