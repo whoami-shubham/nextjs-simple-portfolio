@@ -4,6 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 [Live demo](https://whoami-shubham.github.io/nextjs-simple-portfolio/)
+
 <img width="1728" alt="image" src="https://user-images.githubusercontent.com/28999685/188265829-1cb15d84-a518-4bf1-948b-bdacae06d585.png">
 
 
